@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Ramadan Notifier</string>
+
+    <string name="ss">SS</string>
+    <string name="mm">MM</string>
+    <string name="hh">HH</string>
+    <string name="d">D</string>
+    <string name="remaining_time">Remaining Time</string>
+    <string name="sehr_time">Sehr Time</string>
+    <string name="iftar_time">Iftar Time</string>
+    <string name="s_time">S Time</string>
+    <string name="day">Day</string>
+    <string name="hour">Hour</string>
+    <string name="fiqah_and_city_selection">Select your City and Fiqah to continue</string>
+    <string name="your_fiqah">Your Fiqah</string>
+    <string name="your_city">Your City</string>
+    <string name="go">GO</string>
+    <string name="iftartime_alarm">Set IftarTime Alarm</string>
+    <string name="sehrtime_alarm">Set SehrTime Alarm</string>
+    <string name="set_time">Set Time</string>
+    <string name="be_notified">"You will be notified before "</string>
+    <string name="everyday">" everyday "</string>
+    <string name="date">date</string>
+    <string name="ramadan_kareem"> Ramadan Kareem</string>
+    <string name="change">Change</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="spash_image">Spash Image</string>
+    <string name="starting_ramadan_date">Starting from (14 April 2021)</string>
+    <string name="iftar_time_of">"Iftar time of "</string>
+    <string name="ramdan_kareem_passed"> Ramadan Kareem has passed.</string>
+    <string name="sehr_time_of">"Sehr time of "</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="country">
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Faisalabad</item>
+        <item>Peshawar</item>
+        <item>Gujrat</item>
+        <item>Mianwali</item>
+        <item>Sialkot</item>
+        <item>Quetta</item>
+        <item>Mardan</item>
+        <item>Jhelum</item>
+        <item>Karachi</item>
+        <item>Rawalpindi</item>
+        <item>Multan</item>
+        <item>Hyderabad</item>
+        <item>Sargodha</item>
+        <item>Chakwal</item>
+        <item>Gujranwala</item>
+        <item>Dera Ghazi Khan</item>
+        <item>Sahiwal</item>
+        <item>Attock</item>
+    </string-array>
+
+    <string-array name="fiqah">
+        <item>Hanfi</item>
+        <item>Jafri</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+
+</resources>

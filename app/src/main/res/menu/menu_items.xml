@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/menuSehrTime"
+        android:title="@string/sehrtime_alarm" />
+
+    <item
+        android:id="@+id/menuIftarTime"
+        android:title="@string/iftartime_alarm" />
+
+</menu>

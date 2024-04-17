@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AlarmTimeActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/white"
+        android:background="@color/colorSecondary"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorSecondaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <android.widget.Spinner
+        android:id="@+id/alarmTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_margin="10dp"
+        android:popupBackground="@color/white"
+        android:backgroundTint="@color/colorSecondaryDark" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        style="@style/Widget.MaterialComponents.Button"
+        android:fontFamily="@font/poppins_semibold"
+        android:padding="8dp"
+        android:text="@string/set_time"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="setTime"/>
+
+</LinearLayout>
